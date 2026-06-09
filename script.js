@@ -101,7 +101,7 @@ function login() {
     
     setTimeout(() => {
         const usernameInput = document.querySelector('#login-page input[type="text"]').value.trim();
-        const displayName = usernameInput ? usernameInput : "Thanakrit (Ping)";
+        const displayName = usernameInput ? usernameInput : "User";
         document.getElementById('profile-name').innerText = displayName;
         
         // Re-enable button
