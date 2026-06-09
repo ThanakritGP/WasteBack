@@ -46,15 +46,6 @@
 * **Map Rendering Engine**: Leaflet.js linked with Google Maps tile systems.
 * **Interactive Dialogs**: SweetAlert2 (Toast notifications and custom modals).
 * **Typography**: Google Fonts
-  * **Poppins** (Modern Latin font stack)
-  * **Noto Sans Thai** (Polished Thai character stack with weights $100$ to $900$)
 * **Iconography**: Google Material Symbols Outlined (Clean, minimalistic system icons).
 
 ---
-
-## 4. File Architecture
-
-The project is organized into clean, modular components:
-* `index.html`: Defines the mobile layout shell, headers, and individual page containers.
-* `style.css`: Houses the core layout styles, modern glassmorphic styles, and layout transitions.
-* `script.js`: Governs Leaflet map initializations, point calculations, page navigations, and live camera media streams.
