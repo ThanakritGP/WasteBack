@@ -108,7 +108,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background: linear-gradient(135deg, var(--primary-green), var(--dark-green));
+    background-color: var(--primary-green);
     color: white;
     overflow: hidden;
 }
