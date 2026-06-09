@@ -108,7 +108,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: var(--primary-green);
+    background: #2ecc71;
     color: white;
     overflow: hidden;
 }
