@@ -395,3 +395,22 @@ body {
 .hidden-nav {
     display: none !important;
 }
+
+/* Logo Styling */
+.logo-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-logo {
+    width: 150px;
+    height: auto;
+    max-width: 80%;
+    transition: transform 0.3s ease;
+}
+
+.login-logo:hover {
+    transform: scale(1.05);
+}
