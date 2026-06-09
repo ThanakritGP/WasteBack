@@ -28,26 +28,16 @@ body {
     align-items: center;
 }
 
-/* Mobile App Container */
+/* App Container */
 .app-container {
     width: 100%;
-    max-width: 414px;
     height: 100vh;
     height: 100dvh;
     background-color: var(--bg-light);
     position: relative;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
     display: flex;
     flex-direction: column;
-}
-
-@media (min-width: 415px) {
-    .app-container {
-        height: 90vh;
-        max-height: 896px;
-        border-radius: 20px;
-    }
 }
 
 /* Pages */
@@ -118,8 +108,10 @@ body {
     padding: 30px;
     border-radius: 15px;
     width: 100%;
+    max-width: 380px;
     text-align: center;
     color: var(--text-dark);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
 .login-box input {
